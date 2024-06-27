@@ -1,0 +1,14 @@
+import React from 'react';
+import JobStatusPoller from './JobStatusPoller';
+
+const App = () => {
+  const jobId = '12345'; // Example job ID
+
+  return (
+    <div>
+      <JobStatusPoller jobId={jobId} />
+    </div>
+  );
+};
+
+export default App;
